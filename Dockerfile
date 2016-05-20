@@ -25,4 +25,4 @@ COPY entrypoint.sh /entrypoint.sh
 
 ENTRYPOINT ["/entrypoint.sh"]
 VOLUME ["/opt/apacheds/instances/default"]
-EXPOSE 10389 10636 60088 60464
+EXPOSE 10389 10636 60088 60088/udp 60464 60464/udp
